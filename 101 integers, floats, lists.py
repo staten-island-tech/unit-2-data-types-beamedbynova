@@ -1,5 +1,10 @@
+# there are various data types in all languages, understanding the differences between them are very important.
 # integers = whole numbers
 # floats = numbers with decimal values
+# strings = words for an output. use quotes
+
+# both integers and strings can have the same output, but they are different
+# it is important to convert strings into integers to preform mathematical operations
 
 # the "float(x)" lets the value tied to y be a decimal value. 
 # x can only be a whole number since the "float(x)" command is not present.

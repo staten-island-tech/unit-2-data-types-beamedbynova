@@ -25,9 +25,9 @@ print(values)
 for i in values:
     print(i)
 ```
-You may noticed the following
+You may noticed the following:
 
-1.  We can store different data types inside a list, they do not need to be the same.
+1. We can store different data types inside a list, they do not need to be the same.
 2.  if we print the variable "values" we can see the entire list
 3.  If we use a for loop we can easily iterate through the list and access the values.
 
