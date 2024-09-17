@@ -27,6 +27,8 @@ sentence = input("Type out a sentence: ")
 wordList = sentence.split()
 countOfWords = len(wordList)
 countOfLetters = len(sentence) - sentence.count(' ')
+if countOfWords == 1:
+    print("There is",countOfWords)
 print("There are",countOfWords,"words in this sentence.")
 print("there are",countOfLetters,"letters in this sentence.")
 
