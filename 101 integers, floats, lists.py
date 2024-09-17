@@ -2,6 +2,9 @@
 # integers = whole numbers
 # floats = numbers with decimal values
 # strings = words for an output. use quotes
+# boolean =
+# list = how we store more complex information, you can mix and match data types in lists, you can have lists within lists, the .append command can add a new thing into a list
+# loops print out values in a list individually one at a time, you could put if statements in the loop
 
 # both integers and strings can have the same output, but they are different
 # it is important to convert strings into integers to preform mathematical operations
