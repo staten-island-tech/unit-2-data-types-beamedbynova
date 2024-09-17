@@ -28,7 +28,11 @@ wordList = sentence.split()
 countOfWords = len(wordList)
 countOfLetters = len(sentence) - sentence.count(' ')
 if countOfWords == 1:
-    print("There is",countOfWords)
-print("There are",countOfWords,"words in this sentence.")
-print("there are",countOfLetters,"letters in this sentence.")
+    print("There is one word in this sentence.")
+else:
+    print("There are",countOfWords,"words in this sentence.")
 
+if countOfLetters == 1:
+    print("There is one letter in this 'sentence.'")
+else:
+    print("There are",countOfLetters,"letters in this sentence.")
