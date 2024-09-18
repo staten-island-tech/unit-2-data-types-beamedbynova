@@ -36,3 +36,4 @@ if countOfLetters == 1:
     print("There is one letter in this 'sentence.'")
 else:
     print("There are",countOfLetters,"letters in this sentence.")
+s
