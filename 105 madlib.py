@@ -11,12 +11,20 @@
 # Washington's father embraces his son with a tight hug, saying that his son's honesty was worth a thousand [noun] trees.
 # And that's the story of George Washington and the [noun] tree. I hope this story brought you the same feelings of [noun] that it brought me. And of course, a story isn't [noun] without a theme. This story teaches the beautiful lesson that honesty is always the most honorable thing someone can dsplay.
 
+# The sp
+
 quizStart = input("You are about to take a quiz on one of the oldest myths in American history. Type 'Yes' to continue.")
 if quizStart == "Yes":
+    disclaimer = input("Disclaimer: the answers in this quiz do not have to be accurate. There are no 'wrong' answers when it comes to this quiz, so you can answer with anything you want. Type 'I understand' to continue.")
+    if disclaimer == "I understand":
+        tree = input("George Washington was the first president of the United States. There is a popular myth surrounding him related to a tree; what was the tree featured in the myth? (respond with a noun).")
+        washingtonYoung = input("What is Washington? (respond with a noun)")
+        washingtonAge = input("How old is Washington in the story?")
+    else:
+    print("You have not agreed to the terms.")
+else:
+
     
 # notes:
 # some nouns should share a variable value. for example, the gift washington recieves would have the same variable throughout the story.
 # maybe you could format this story as a quiz, and the plot twist is that the program is actually a madlib. if you go with the quiz idea, let the reader know that the answers can be as wacky as possible.
-# 
-
-# file > preferences > settings, enable line wrapping
