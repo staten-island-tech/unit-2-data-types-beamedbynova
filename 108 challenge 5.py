@@ -1,6 +1,21 @@
 # this is challenge 5 / the code that lists all of the factors of a number.
 
 number = int(input("please input a number: "))
-for i in range(number):
-# to make this, divide number by all the integers less than or equal to itself (prolly use a loop)
-# then list the numbers that divide evenly into the number
+divisor = 1
+factorList = []
+while divisor < number:
+    dividend = number % divisor
+    divisor = divisor + 1
+    if dividend == int:
+        factorList.append(dividend)
+    else:
+        print("nothing")
+print(factorList)
+
+
+# to make this:
+# get a number
+# divide it by a certain number and see if it leaves a remainder
+# if the output does not have a remainder, put it into a list
+# continue this until the divisor is greater than the number
+# print out all of the numbers that did not leave a remainder
