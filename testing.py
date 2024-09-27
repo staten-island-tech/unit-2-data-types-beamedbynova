@@ -18,4 +18,4 @@ while number > 0:
     print(number)
     number = number - 1
 
-type(14) == 
+type(14) == int
